@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tech-akashkush.github.io/sitemap.xml

@@ -3,30 +3,301 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Focus Mode by Akash Kush</title>
-  <style>
-    :root { color-scheme: light dark; --bg: #ffffff; --fg: #1b1f1e; --muted: #5a6361; --accent: #2f7d6d; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111615; --fg: #e3e8e6; --muted: #9aa5a2; --accent: #84d6c3; } }
-    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-    main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
-    h1 { margin: 0 0 4px; font-size: 1.8rem; }
-    p.by { margin: 0 0 24px; color: var(--muted); }
-    a { color: var(--accent); }
-    ul { padding-left: 20px; }
-    footer { margin-top: 40px; font-size: 0.9rem; color: var(--muted); }
-  </style>
+  <title>Focus Mode - App Blocker | Study without the scroll</title>
+  <meta name="description" content="Focus Mode is a free Android app that blocks distracting apps, Reels, Shorts and websites while you study, with timers, Pomodoro, daily limits, schedules and focus stats.">
+  <meta name="theme-color" content="#1d2746">
+  <link rel="canonical" href="https://tech-akashkush.github.io/">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Focus Mode - App Blocker">
+  <meta property="og:description" content="Block Reels, Shorts and distracting apps while you study. Free, with timers, limits and stats.">
+  <meta property="og:image" content="https://tech-akashkush.github.io/img/og.jpg">
+  <meta property="og:url" content="https://tech-akashkush.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Focus Mode - App Blocker",
+    "operatingSystem": "Android 8.0 or later",
+    "applicationCategory": "ProductivityApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+    "author": { "@type": "Person", "name": "Akash Kush" },
+    "url": "https://play.google.com/store/apps/details?id=com.akashkush.focusmode"
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <h1>Focus Mode</h1>
-    <p class="by">An app by Akash Kush, independent developer</p>
-    <p>Focus Mode is a free Android app that blocks distracting apps, Reels, Shorts and websites while you study or work, with timers, limits, schedules and focus stats.</p>
-    <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode">Get it on Google Play</a></li>
-      <li><a href="https://tech-akashkush.github.io/focus-mode-privacy/">Privacy policy</a></li>
-      <li>Contact: <a href="mailto:akashkushtech.ai@gmail.com">akashkushtech.ai@gmail.com</a></li>
-    </ul>
-    <footer>Focus Mode is an independent app. It is not affiliated with any government body or exam board.</footer>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top"><img src="img/icon-96.png" alt="" width="32" height="32">Focus Mode</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#how">How it works</a>
+        <a href="#help">Help</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <div class="app-id">
+            <img src="img/icon-192.png" alt="Focus Mode app icon" width="64" height="64">
+            <span><strong>Focus Mode - App Blocker</strong>by Akash Kush</span>
+          </div>
+          <h1>Study without the scroll.</h1>
+          <p class="lead">Block the apps, Reels, Shorts and websites that eat your time, and see how much you really focused.</p>
+          <div class="cta">
+            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.2 2.6c-.3.3-.4.7-.4 1.2v16.4c0 .5.1.9.4 1.2l9.1-9.4-9.1-9.4zm10.5 10.8 2.6 2.7-11.2 6.4 8.6-9.1zm0-2.8L6.1 1.5l11.2 6.4-2.6 2.7zm3.9-1.9 3 1.7c.9.5.9 1.8 0 2.3l-3 1.7-2.8-2.9 2.8-2.8z"/></svg>
+              Get it on Google Play
+            </a>
+            <a class="btn btn-ghost" href="#features">See features</a>
+          </div>
+          <p class="meta">Free · Contains ads · Android 8.0 and newer · English and हिन्दी</p>
+        </div>
+        <div class="phone">
+          <img src="img/01_home.webp" alt="Focus Mode home screen with timer, strict mode and Reels blocker" width="480" height="960">
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <p class="eyebrow">Features</p>
+        <h2>Everything you need to stay on task</h2>
+        <p class="section-intro">Every blocking and focus feature is free. Pick what distracts you, start a session, and let Focus Mode hold the line.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div>
+            <h3>App blocker</h3>
+            <p>Close Instagram, YouTube, games or any app you pick while you focus, with a calm "Stay focused" screen instead.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div>
+            <h3>Reels &amp; Shorts blocker</h3>
+            <p>Block only Instagram Reels, YouTube Shorts, Facebook Reels and Snapchat Spotlight. Your feed, messages and normal videos keep working.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg></div>
+            <h3>Timer, stopwatch, Pomodoro</h3>
+            <p>Set your own focus and break lengths. Strict mode makes a session you can't end or pause early.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+            <h3>Schedules &amp; daily limits</h3>
+            <p>Block apps automatically, for example Monday to Saturday 9:00 to 13:00, or give each app a daily time budget.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></div>
+            <h3>Website blocker</h3>
+            <p>Block the sites you choose in your browser, or allow only the study sites you need. Optional adult-content filter.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg></div>
+            <h3>Insights &amp; streaks</h3>
+            <p>Daily and weekly focus time, productive vs distracting screen time, top apps, and a streak calendar.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></div>
+            <h3>YouTube Study Mode</h3>
+            <p>Only videos from the study channels you add will play. Everything else on YouTube is blocked.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+            <h3>Focus sounds &amp; themes</h3>
+            <p>Original rain, waves and deep-focus sounds, plus light, dark and calm colour themes.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+            <h3>Block now</h3>
+            <p>One switch closes all your blocked apps right away, no session needed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="screens" class="alt">
+      <div class="wrap">
+        <p class="eyebrow">Screens</p>
+        <h2>A calm app that stays out of your way</h2>
+        <p class="section-intro">Swipe to see more.</p>
+        <div class="shots" tabindex="0" aria-label="App screenshots">
+          <figure><img src="img/01_home.webp" alt="Home screen" loading="lazy" width="480" height="960"><figcaption>Start a focus session</figcaption></figure>
+          <figure><img src="img/02_blocked.webp" alt="Stay focused block screen" loading="lazy" width="480" height="960"><figcaption>Blocked apps pause</figcaption></figure>
+          <figure><img src="img/03_reels.webp" alt="Reels and Shorts settings" loading="lazy" width="480" height="960"><figcaption>Reels &amp; Shorts blocker</figcaption></figure>
+          <figure><img src="img/04_session.webp" alt="Focus session countdown" loading="lazy" width="480" height="960"><figcaption>Focus session</figcaption></figure>
+          <figure><img src="img/05_insights_week.webp" alt="Weekly insights" loading="lazy" width="480" height="960"><figcaption>Weekly insights</figcaption></figure>
+          <figure><img src="img/06_insights_day.webp" alt="Daily insights" loading="lazy" width="480" height="960"><figcaption>Where your time goes</figcaption></figure>
+          <figure><img src="img/07_history.webp" alt="Session history and streak" loading="lazy" width="480" height="960"><figcaption>Streaks &amp; history</figcaption></figure>
+          <figure><img src="img/08_schedules.webp" alt="Weekly schedules" loading="lazy" width="480" height="960"><figcaption>Schedules</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="wrap">
+        <p class="eyebrow">How it works</p>
+        <h2>Set up in two minutes</h2>
+        <p class="section-intro">Focus Mode walks you through each step inside the app.</p>
+        <div class="steps">
+          <div class="card step"><h3>Pick your distractions</h3><p>Choose the apps to block, and switch on the Reels &amp; Shorts blocker if you want it.</p></div>
+          <div class="card step"><h3>Allow blocking</h3><p>Read the short explanation, then turn on Focus Mode in Android's Accessibility settings. This is how it can close the apps you picked.</p></div>
+          <div class="card step"><h3>Start focusing</h3><p>Start a timer or Pomodoro, or turn on Block now. Blocked apps show "Stay focused" until your session ends.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt" id="privacy">
+      <div class="wrap privacy-band">
+        <div>
+          <p class="eyebrow">Private by default</p>
+          <h2>What Focus Mode sees stays on your phone</h2>
+          <p class="section-intro">It uses Android's Accessibility service only to recognise the apps, videos and websites you chose to block. There is no account and no sign-up.</p>
+          <a href="https://tech-akashkush.github.io/focus-mode-privacy/">Read the full privacy policy</a>
+        </div>
+        <ul class="checks">
+          <li>Only the apps you choose to restrict are observed. Banking, payment and chat apps are never looked at.</li>
+          <li>Your block lists, sessions and statistics are stored only on your phone.</li>
+          <li>Nothing the Accessibility service sees is sent anywhere, stored or logged.</li>
+          <li>Uninstalling the app deletes everything it saved.</li>
+          <li>Ads are never shown on the block screen or during a focus session.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="help">
+      <div class="wrap">
+        <p class="eyebrow">Help</p>
+        <h2>Blocking stopped working?</h2>
+        <p class="section-intro">Some phones stop apps in the background to save battery, which can switch off blocking. Follow the steps for your phone. Menu names differ a little between versions.</p>
+        <div class="two-col">
+          <div>
+            <details>
+              <summary>vivo / iQOO (OriginOS, Funtouch OS)</summary>
+              <div class="body"><ol>
+                <li>In Battery, open Background power consumption management and allow Focus Mode.</li>
+                <li>Turn on Autostart for Focus Mode (i Manager or Permissions).</li>
+                <li>Open Recent apps and lock Focus Mode.</li>
+              </ol></div>
+            </details>
+            <details>
+              <summary>Xiaomi / Redmi / POCO (HyperOS, MIUI)</summary>
+              <div class="body"><ol>
+                <li>Turn on Autostart for Focus Mode.</li>
+                <li>In Focus Mode's app settings, set Battery saver to "No restrictions".</li>
+                <li>Open Recent apps, then hold Focus Mode and lock it.</li>
+              </ol></div>
+            </details>
+            <details>
+              <summary>Samsung (One UI)</summary>
+              <div class="body"><ol>
+                <li>In Focus Mode's app settings, set Battery to "Unrestricted".</li>
+                <li>In Battery and device care, make sure Focus Mode isn't in Sleeping apps or Deep sleeping apps.</li>
+              </ol></div>
+            </details>
+          </div>
+          <div>
+            <details>
+              <summary>Oppo / Realme / OnePlus (ColorOS)</summary>
+              <div class="body"><ol>
+                <li>Allow Auto launch (Auto startup) for Focus Mode.</li>
+                <li>In Battery, allow background activity for Focus Mode.</li>
+                <li>Open Recent apps and lock Focus Mode.</li>
+              </ol></div>
+            </details>
+            <details>
+              <summary>Other phones</summary>
+              <div class="body"><ol>
+                <li>In Focus Mode's app settings, set Battery to "Unrestricted" or "Don't optimize".</li>
+                <li>If your phone has an autostart or background app manager, allow Focus Mode there.</li>
+              </ol></div>
+            </details>
+            <details>
+              <summary>Still not working?</summary>
+              <div class="body"><p>Open Focus Mode → Settings → Permissions. If Accessibility shows as off or stopped, switch Focus Mode off and on again in Android's Accessibility settings. If it still doesn't work, <a href="mailto:akashkushtech.ai@gmail.com?subject=Focus%20Mode%20help">email me</a> with your phone model and Android version.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="alt">
+      <div class="wrap">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions people ask</h2>
+        <div class="two-col">
+          <div>
+            <details>
+              <summary>Is Focus Mode free?</summary>
+              <div class="body"><p>Yes. Every blocking and focus feature is free. Small ads keep it that way, and they never appear while you focus or on the block screen. Extra colour themes and sounds can be unlocked for 7 days by watching an optional short ad.</p></div>
+            </details>
+            <details>
+              <summary>Why does it need Accessibility permission?</summary>
+              <div class="body"><p>Android only lets an app close other apps, Reels or websites through the Accessibility service. Focus Mode uses it only for the apps you choose to block, and nothing it sees leaves your phone. The app explains this on a full screen before asking.</p></div>
+            </details>
+            <details>
+              <summary>Can I still use Instagram and YouTube?</summary>
+              <div class="body"><p>Yes. With the Reels &amp; Shorts blocker, only the short-video player is blocked. Your feed, messages and normal videos keep working. You can also block a whole app only during your focus sessions.</p></div>
+            </details>
+            <details>
+              <summary>What is Strict mode?</summary>
+              <div class="body"><p>A strict session can't be ended or paused early, so you can't give in to a distraction halfway. Use it on days you really need it.</p></div>
+            </details>
+          </div>
+          <div>
+            <details>
+              <summary>Which browsers does website blocking work in?</summary>
+              <div class="body"><p>It is tested in Chrome and also supports other popular Android browsers. If a site isn't blocked in your browser, please let me know.</p></div>
+            </details>
+            <details>
+              <summary>Which phones are supported?</summary>
+              <div class="body"><p>Android phones with Android 8.0 or newer. There is no iPhone version.</p></div>
+            </details>
+            <details>
+              <summary>How do I delete my data?</summary>
+              <div class="body"><p>Everything is stored on your phone only. Uninstalling Focus Mode deletes all of it. There is no account to close.</p></div>
+            </details>
+            <details>
+              <summary>Is this an official or government app?</summary>
+              <div class="body"><p>No. Focus Mode is an independent app made by Akash Kush. It is not affiliated with any government body, exam board or other organisation, and it does not provide government or exam information.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h2>Found a bug or have an idea?</h2>
+        <p class="section-intro">I read every message. Tell me your phone model and what happened, and I'll try to fix it in the next update.</p>
+        <div class="cta" style="justify-content:center">
+          <a class="btn btn-play" href="mailto:akashkushtech.ai@gmail.com?subject=Focus%20Mode">Email akashkushtech.ai@gmail.com</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode">Google Play</a>
+        <a href="https://tech-akashkush.github.io/focus-mode-privacy/">Privacy policy</a>
+        <a href="#help">Help</a>
+        <a href="#faq">FAQ</a>
+        <a href="mailto:akashkushtech.ai@gmail.com">Contact</a>
+      </nav>
+      <p class="disclaimer">Focus Mode is an independent app by Akash Kush. It is not affiliated with any government body or exam board. Instagram, YouTube, Facebook and Snapchat are trademarks of their owners; Focus Mode is not connected to them. Google Play is a trademark of Google LLC.</p>
+      <p>© 2026 Akash Kush</p>
+    </div>
+  </footer>
 </body>
 </html>
