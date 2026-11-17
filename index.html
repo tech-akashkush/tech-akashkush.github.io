@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Akash Kush | Software Engineer, Apps, Automation & AI Agents</title>
+  <title>Akash | Software Engineer, Apps, Automation &amp; AI Agents</title>
   <meta name="description" content="Akash Kush is an independent software engineer building web and mobile apps, automations and AI agents. Maker of Focus Mode, a free app blocker for students.">
-  <meta name="theme-color" content="#1d2746">
+  <meta name="theme-color" content="#fffaf0">
   <link rel="canonical" href="https://tech-akashkush.github.io/">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/icon-32.png">
   <link rel="apple-touch-icon" href="/img/akash.webp">
@@ -14,6 +14,9 @@
   <meta property="og:description" content="Software engineer building web and mobile apps, automations and AI agents.">
   <meta property="og:image" content="https://tech-akashkush.github.io/img/akash.webp">
   <meta property="og:url" content="https://tech-akashkush.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <script type="application/ld+json">
   {
@@ -23,39 +26,73 @@
     "jobTitle": "Software Engineer",
     "url": "https://tech-akashkush.github.io/",
     "image": "https://tech-akashkush.github.io/img/akash.webp",
-    "sameAs": [
-      "https://github.com/tech-akashkush",
-      "https://play.google.com/store/apps/developer?id=Akash+Kush"
-    ]
+    "sameAs": ["https://github.com/tech-akashkush", "https://play.google.com/store/apps/developer?id=Akash+Kush"]
   }
   </script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="nav">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/img/akash.webp" alt="" width="32" height="32" style="border-radius:50%">Akash Kush</a>
-      <nav class="nav" aria-label="Main">
-        <a href="#work">What I do</a>
+      <a class="brand" href="/"><span class="logo"><svg class="ico" aria-hidden="true"><use href="/icons.svg#code-xml"/></svg></span>Akash</a>
+      <nav class="nav-links" aria-label="Main">
         <a href="#projects">Projects</a>
+        <a href="#work">What I do</a>
         <a href="#contact">Contact</a>
       </nav>
+      <a class="btn" href="mailto:akashkushtech.ai@gmail.com?subject=Project%20enquiry">Hire me <svg class="ico" aria-hidden="true"><use href="/icons.svg#arrow-up-right"/></svg></a>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="wrap me">
-        <img class="avatar" src="/img/akash.webp" alt="Akash Kush" width="168" height="168">
-        <div>
-          <h1>Hi, I'm Akash Kush.</h1>
-          <p class="role">Software engineer · Full-stack developer (web &amp; mobile) · Automation &amp; AI agents</p>
-          <p class="lead">I'm an independent developer. I build apps end to end, from the first idea to a published product, and I like turning repetitive work into automations and AI agents that do it for you.</p>
-          <ul class="chips">
-            <li>Flutter</li><li>Kotlin &amp; Android</li><li>Web apps</li><li>Automation</li><li>AI agents</li><li>Agentic AI</li>
-          </ul>
-          <div class="cta">
-            <a class="btn btn-play" href="#projects">See my projects</a>
-            <a class="btn btn-ghost" href="#contact">Contact me</a>
+  <main>
+    <div class="wrap hero">
+      <div class="bento">
+        <div class="tile photo tall"><img src="/img/akash.webp" alt="Akash Kush" width="320" height="320"></div>
+        <div class="tile orange span2 tall col">
+          <span class="sticker">hello!</span>
+          <h1 class="name">Akash<br>Kush</h1>
+          <p class="role">Software engineer · web &amp; mobile · automation · AI agents</p>
+        </div>
+        <a class="tile yellow row" href="#contact"><span class="big">Open to<br>projects</span><span class="pulse" aria-hidden="true"></span></a>
+        <div class="tile white col"><span class="small">Based in</span><span class="big row" style="justify-content:flex-start;gap:8px"><svg class="ico" aria-hidden="true"><use href="/icons.svg#map-pin"/></svg>Agra, India</span></div>
+      </div>
+      <div class="tile orange ticker" aria-hidden="true">
+        <div class="ticker-track"><span>Mobile apps</span><span>Web apps</span><span>Automation</span><span>AI agents</span><span>Agentic AI</span><span>Flutter</span><span>Kotlin</span><span>Open to projects</span></div>
+        <div class="ticker-track"><span>Mobile apps</span><span>Web apps</span><span>Automation</span><span>AI agents</span><span>Agentic AI</span><span>Flutter</span><span>Kotlin</span><span>Open to projects</span></div>
+      </div>
+    </div>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2 class="h2">Projects</h2>
+        <p class="lead">Products I designed, built and published myself.</p>
+        <div class="projects">
+          <div class="tile navy project lift">
+            <span class="sticker">LIVE</span>
+            <div class="col">
+              <img class="appicon" src="/img/icon-192.png" alt="Focus Mode icon" width="64" height="64">
+              <div>
+                <h3 class="title">Focus Mode - App Blocker</h3>
+                <p>A free Android app that blocks Reels, Shorts, distracting apps and websites while you study, with timers, Pomodoro, limits and insights.</p>
+                <div class="logos">
+                  <span class="logo-chip"><svg aria-hidden="true" style="color:#02569B"><use href="/icons.svg#brand-flutter" fill="currentColor"/></svg>Flutter</span>
+                  <span class="logo-chip"><svg aria-hidden="true" style="color:#7F52FF"><use href="/icons.svg#brand-kotlin" fill="currentColor"/></svg>Kotlin</span>
+                  <span class="logo-chip"><svg aria-hidden="true" style="color:#3DDC84"><use href="/icons.svg#brand-android" fill="currentColor"/></svg>Android</span>
+                </div>
+              </div>
+              <div class="row" style="justify-content:flex-start;flex-wrap:wrap">
+                <a class="btn" href="/focus-mode/">View project <svg class="ico" aria-hidden="true"><use href="/icons.svg#arrow-up-right"/></svg></a>
+                <a class="btn white" href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode"><svg class="ico" aria-hidden="true" style="color:#01875f"><use href="/icons.svg#brand-googleplay" fill="currentColor" stroke="none"/></svg>Google Play</a>
+              </div>
+            </div>
+            <div class="shots">
+              <img src="/img/01_home.webp" alt="Focus Mode home screen" width="480" height="960" loading="lazy">
+              <img src="/img/02_blocked.webp" alt="Focus Mode block screen" width="480" height="960" loading="lazy">
+            </div>
+          </div>
+          <div class="tile white soon">
+            <svg class="ico" aria-hidden="true"><use href="/icons.svg#sparkles"/></svg>
+            <span class="big">More apps<br>coming soon</span>
+            <span class="small">apps · automations · AI agents</span>
           </div>
         </div>
       </div>
@@ -63,91 +100,72 @@
 
     <section id="work">
       <div class="wrap">
-        <p class="eyebrow">What I do</p>
-        <h2>I build software that saves people time</h2>
-        <p class="section-intro">From a mobile app on Google Play to an agent that runs a workflow for you, I take a project from idea to something real people use.</p>
-        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))">
-          <article class="card">
-            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+        <h2 class="h2">What I do</h2>
+        <p class="lead">From a mobile app on Google Play to an agent that runs a workflow for you, I take a project from idea to something real people use.</p>
+        <div class="cards">
+          <div class="tile blue lift">
+            <div class="card-ico"><svg class="ico" aria-hidden="true"><use href="/icons.svg#smartphone"/></svg></div>
             <h3>Mobile apps</h3>
-            <p>Android apps with Flutter and Kotlin, built for real phones and published on Google Play.</p>
-            <ul class="chips"><li>Flutter</li><li>Kotlin</li><li>Play Store</li></ul>
-          </article>
-          <article class="card">
-            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20M7 14l2 2-2 2M12 18h4"/></svg></div>
+            <p>Android apps built with Flutter and Kotlin, published on Google Play.</p>
+            <div class="logos">
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#02569B"><use href="/icons.svg#brand-flutter" fill="currentColor"/></svg>Flutter</span>
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#7F52FF"><use href="/icons.svg#brand-kotlin" fill="currentColor"/></svg>Kotlin</span>
+            </div>
+          </div>
+          <div class="tile green lift">
+            <div class="card-ico"><svg class="ico" aria-hidden="true"><use href="/icons.svg#globe"/></svg></div>
             <h3>Web apps</h3>
-            <p>Full-stack websites and web apps, from the interface people use to the server and data behind it.</p>
-            <ul class="chips"><li>Front end</li><li>Back end</li><li>APIs</li></ul>
-          </article>
-          <article class="card">
-            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M4.2 7.5l2.6 1.5M17.2 15l2.6 1.5M4.2 16.5l2.6-1.5M17.2 9l2.6-1.5"/><circle cx="12" cy="12" r="4"/></svg></div>
+            <p>Full-stack websites and web apps, from the interface to the server behind it.</p>
+            <div class="logos">
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#E34F26"><use href="/icons.svg#brand-html5" fill="currentColor"/></svg>HTML</span>
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#663399"><use href="/icons.svg#brand-css" fill="currentColor"/></svg>CSS</span>
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#c9a800"><use href="/icons.svg#brand-javascript" fill="currentColor"/></svg>JS</span>
+            </div>
+          </div>
+          <div class="tile purple lift">
+            <div class="card-ico"><svg class="ico" aria-hidden="true"><use href="/icons.svg#workflow"/></svg></div>
             <h3>Automation</h3>
             <p>Workflows, scripts and integrations that take repetitive work off your plate.</p>
-            <ul class="chips"><li>Workflows</li><li>Integrations</li><li>Scripts</li></ul>
-          </article>
-          <article class="card">
-            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 12h.01M15 12h.01M9 16h6"/></svg></div>
-            <h3>AI agents &amp; agentic AI</h3>
-            <p>AI assistants and multi-step agents that understand a goal, use tools and get the task done.</p>
-            <ul class="chips"><li>AI agents</li><li>LLMs</li><li>Agentic AI</li></ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="alt">
-      <div class="wrap">
-        <p class="eyebrow">Projects</p>
-        <h2>Things I've built</h2>
-        <p class="section-intro">Products I've designed, built and published myself.</p>
-        <div class="projects">
-          <article class="card project">
-            <img src="/img/icon-192.png" alt="Focus Mode icon" width="72" height="72">
-            <div>
-              <span class="tag">Android app · Live on Google Play</span>
-              <h3>Focus Mode - App Blocker</h3>
-              <p>A free app that blocks distracting apps, Reels, Shorts and websites while you study, with timers, Pomodoro, schedules, daily limits and focus insights. Private by design: everything it sees stays on the phone.</p>
-              <ul class="chips"><li>Flutter</li><li>Kotlin</li><li>Accessibility service</li><li>AdMob</li></ul>
-              <div class="links">
-                <a href="/focus-mode/">Product page</a>
-                <a href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode">Google Play</a>
-                <a href="https://tech-akashkush.github.io/focus-mode-privacy/">Privacy</a>
-                <a href="/focus-mode/terms/">Terms</a>
-              </div>
+            <div class="logos">
+              <span class="logo-chip"><svg aria-hidden="true" style="color:#2088FF"><use href="/icons.svg#brand-githubactions" fill="currentColor"/></svg>GitHub Actions</span>
             </div>
-          </article>
-          <article class="card project soon">
-            <div class="plus">+</div>
-            <h3>More apps coming soon</h3>
-            <p>New apps, automations and AI agents are on the way. Check back here.</p>
-          </article>
+          </div>
+          <div class="tile yellow lift">
+            <div class="card-ico"><svg class="ico" aria-hidden="true"><use href="/icons.svg#bot"/></svg></div>
+            <h3>AI agents</h3>
+            <p>Assistants and multi-step agents that understand a goal, use tools and get it done.</p>
+            <div class="logos">
+              <span class="logo-chip"><svg aria-hidden="true"><use href="/icons.svg#bot-message-square"/></svg>LLMs</span>
+              <span class="logo-chip"><svg aria-hidden="true"><use href="/icons.svg#zap"/></svg>Agentic AI</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section id="contact">
       <div class="wrap">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's build something</h2>
-        <p class="section-intro">Have an idea for an app, a website, an automation or an AI agent? Or feedback on Focus Mode? I'd love to hear from you.</p>
-        <div class="cta">
-          <a class="btn btn-play" href="mailto:akashkushtech.ai@gmail.com">Email me</a>
-          <a class="btn btn-line" href="https://github.com/tech-akashkush">GitHub</a>
-          <a class="btn btn-line" href="https://play.google.com/store/apps/developer?id=Akash+Kush">My apps on Google Play</a>
+        <div class="tile orange cta">
+          <h2 class="h2">Let's build<br>something.</h2>
+          <div class="row" style="flex-wrap:wrap;justify-content:flex-start">
+            <a class="btn white" href="mailto:akashkushtech.ai@gmail.com"><svg class="ico" aria-hidden="true"><use href="/icons.svg#mail"/></svg>Email</a>
+            <a class="btn green" href="https://github.com/tech-akashkush"><svg class="ico" aria-hidden="true"><use href="/icons.svg#brand-github" fill="currentColor" stroke="none"/></svg>GitHub</a>
+            <a class="btn blue" href="https://play.google.com/store/apps/developer?id=Akash+Kush"><svg class="ico" aria-hidden="true"><use href="/icons.svg#brand-googleplay" fill="currentColor" stroke="none"/></svg>Google Play</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <div class="wrap">
       <nav aria-label="Footer">
         <a href="/focus-mode/">Focus Mode</a>
-        <a href="https://tech-akashkush.github.io/focus-mode-privacy/">Focus Mode privacy policy</a>
-        <a href="/focus-mode/terms/">Focus Mode terms</a>
+        <a href="https://tech-akashkush.github.io/focus-mode-privacy/">Privacy policy</a>
+        <a href="/focus-mode/terms/">Terms of Service</a>
         <a href="mailto:akashkushtech.ai@gmail.com">akashkushtech.ai@gmail.com</a>
       </nav>
-      <p>© 2026 Akash Kush</p>
+      <p class="fine">© 2026 Akash Kush. Flutter, Kotlin, Android, Google Play, GitHub and other names are trademarks of their owners.</p>
     </div>
   </footer>
 </body>

@@ -3,17 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Page not found | Focus Mode</title>
+  <title>Page not found | Akash</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/img/icon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <main class="wrap" style="padding:96px 16px; text-align:center">
-    <img src="/img/icon-192.png" alt="" width="96" height="96" style="margin:0 auto 24px; border-radius:22px">
-    <h2>This page doesn't exist</h2>
-    <p class="section-intro" style="margin:0 auto 28px">Maybe it moved. Let's get you back on track.</p>
-    <a class="btn btn-play" href="/">Go to the home page</a>
-    <p style="margin-top:16px"><a href="/focus-mode/">Focus Mode</a></p>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="/"><span class="logo"><svg class="ico" aria-hidden="true"><use href="/icons.svg#code-xml"/></svg></span>Akash</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/#projects">Projects</a>
+        <a href="/focus-mode/">Focus Mode</a>
+      </nav>
+      <a class="btn green" href="https://play.google.com/store/apps/details?id=com.akashkush.focusmode"><svg class="ico" aria-hidden="true"><use href="/icons.svg#brand-googleplay" fill="currentColor" stroke="none"/></svg>Get the app</a>
+    </div>
+  </header>
+  <main class="wrap" style="padding:56px 16px">
+    <div class="tile yellow" style="max-width:640px;margin:0 auto;text-align:center;padding:40px 28px">
+      <span class="sticker">404</span>
+      <h1 class="name" style="font-size:clamp(2.4rem,7vw,4rem)">Lost?</h1>
+      <p style="font-weight:600;margin:14px 0 22px">This page doesn't exist. Maybe it moved.</p>
+      <div class="row" style="justify-content:center;flex-wrap:wrap">
+        <a class="btn white" href="/">Go home</a>
+        <a class="btn" style="background:#ff6b4a" href="/focus-mode/">Focus Mode</a>
+      </div>
+    </div>
   </main>
 </body>
 </html>
